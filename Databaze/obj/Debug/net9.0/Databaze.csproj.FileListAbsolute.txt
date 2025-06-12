@@ -1,0 +1,14 @@
+C:\Users\czechitas\czechitas\ZP\Databaze\bin\Debug\net9.0\Databaze.exe
+C:\Users\czechitas\czechitas\ZP\Databaze\bin\Debug\net9.0\Databaze.deps.json
+C:\Users\czechitas\czechitas\ZP\Databaze\bin\Debug\net9.0\Databaze.runtimeconfig.json
+C:\Users\czechitas\czechitas\ZP\Databaze\bin\Debug\net9.0\Databaze.dll
+C:\Users\czechitas\czechitas\ZP\Databaze\bin\Debug\net9.0\Databaze.pdb
+C:\Users\czechitas\czechitas\ZP\Databaze\obj\Debug\net9.0\Databaze.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\czechitas\czechitas\ZP\Databaze\obj\Debug\net9.0\Databaze.AssemblyInfoInputs.cache
+C:\Users\czechitas\czechitas\ZP\Databaze\obj\Debug\net9.0\Databaze.AssemblyInfo.cs
+C:\Users\czechitas\czechitas\ZP\Databaze\obj\Debug\net9.0\Databaze.csproj.CoreCompileInputs.cache
+C:\Users\czechitas\czechitas\ZP\Databaze\obj\Debug\net9.0\Databaze.dll
+C:\Users\czechitas\czechitas\ZP\Databaze\obj\Debug\net9.0\refint\Databaze.dll
+C:\Users\czechitas\czechitas\ZP\Databaze\obj\Debug\net9.0\Databaze.pdb
+C:\Users\czechitas\czechitas\ZP\Databaze\obj\Debug\net9.0\Databaze.genruntimeconfig.cache
+C:\Users\czechitas\czechitas\ZP\Databaze\obj\Debug\net9.0\ref\Databaze.dll
