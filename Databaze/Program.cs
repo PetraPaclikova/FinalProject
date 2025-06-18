@@ -22,7 +22,7 @@ class Program
             Console.WriteLine("7.Mark items as arrived");
             Console.WriteLine("8. End");
 
-            string input = Console.ReadLine();
+            string input = InputQC.SafeReadLine();
 
             try
             {
@@ -30,25 +30,25 @@ class Program
                 {
                     case "1":
                         Console.WriteLine("Enter in which group new item belong (antibody, vector, material");
-                        string itemInput = Console.ReadLine().Trim().ToLower();
+                        string itemInput = InputQC.SafeReadLine().Trim().ToLower();
                         if (itemInput == "antibody")
                         {
                             Console.WriteLine("Enter: name; catalogue number; room; storage conditions; reactivity");
-                            string data = Console.ReadLine();
+                            string data = InputQC.SafeReadLine();
                             string[] parts = data.Split(';');
                             AddAntibody(parts);
                         }
                         else if (itemInput == "vector")
                         {
                             Console.WriteLine("Enter: name; room; storage conditions; resistance; size");
-                            string data = Console.ReadLine();
+                            string data = InputQC.SafeReadLine();
                             string[] parts = data.Split(';');
                             AddVector(parts);
                         }
                         else if (itemInput == "material")
                         {
                             Console.WriteLine("Enter: name; catalogue number; room; storage conditions");
-                            string data = Console.ReadLine();
+                            string data = InputQC.SafeReadLine();
                             string[] parts = data.Split(';');
                             AddMaterial(parts);
                         }
@@ -59,12 +59,12 @@ class Program
                         break;
                     case "2":
                         Console.WriteLine("Enter what you want to search?:");
-                        string keyword = Console.ReadLine();
+                        string keyword = InputQC.SafeReadLine();
                         FindItem(keyword);
                         break;
                     case "3":
                         Console.WriteLine("Enter room number:");
-                        string roomInput = Console.ReadLine();
+                        string roomInput = InputQC.SafeReadLine();
                         if (int.TryParse(roomInput, out int roomNumber))
                         {
                             SearchByRoom(roomNumber);
@@ -79,7 +79,7 @@ class Program
                         break;
                     case "5":
                         Console.WriteLine("Enter item name to mark for order:");
-                        string nameToOrder = Console.ReadLine().Trim().ToLower();
+                        string nameToOrder = InputQC.SafeReadLine().Trim().ToLower();
                         MarkItemForOrder(nameToOrder);
                         break;
                     case "6":
@@ -87,7 +87,7 @@ class Program
                         break;
                     case "7":
                         Console.WriteLine("Enter item name to mark as arrived:");
-                        string arrivedName = Console.ReadLine().Trim();
+                        string arrivedName = InputQC.SafeReadLine().Trim();
                         MarkItemAsArrived(arrivedName);
                         break;
                     case "8":

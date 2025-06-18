@@ -12,3 +12,4 @@ C:\Users\czechitas\czechitas\ZP\Databaze\obj\Debug\net9.0\refint\Databaze.dll
 C:\Users\czechitas\czechitas\ZP\Databaze\obj\Debug\net9.0\Databaze.pdb
 C:\Users\czechitas\czechitas\ZP\Databaze\obj\Debug\net9.0\Databaze.genruntimeconfig.cache
 C:\Users\czechitas\czechitas\ZP\Databaze\obj\Debug\net9.0\ref\Databaze.dll
+C:\Users\czechitas\czechitas\ZP\Databaze\obj\Debug\net9.0\Databaze.sourcelink.json
